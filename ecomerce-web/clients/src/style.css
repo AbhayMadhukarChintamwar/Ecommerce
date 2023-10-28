@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: "Merriweather", serif;
+  }
+  
+  /* top-navbar */
+  
+  .top-navbar {
+    display: flex;
+    justify-content: space-between;
+    background: rgba(234, 230, 230, 0.832);
+    color:bluewhite;
+    font-weight: bolder;
+  }
+  .top-navbar p {
+    margin-top: 13px;
+    margin-left: 15px;
+    color: blue;
+    font-weight: bold;
+  }
+  .top-navbar .icons {
+    margin-top: 13px;
+    margin-left: 15px;
+    margin-right: 10px;
+  }
+  .top-navbar a {
+    text-decoration: none;
+    color: rgb(255, 254, 254);
+    margin-left: 10px;
+  }
+  .top-navbar a .bts {
+    width: 50px;
+    background: blue;
+    font-size: 12px;
+    color: white;
+    padding: 1px;
+    font-weight: bold;
+    border: 1px solid rgb(0, 0, 255);
+    border-radius: 15%;
+    box-shadow: 2px 2px 2px 2px rgb(28, 19, 205);
+  }
+  .top-navbar p {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  @media screen and (max-width: 900px) {
+    .top-navbar p {
+      font-size: 18px;
+    }
+   
+  }
+  @media screen and (max-width: 720px) {
+    .top-navbar p {
+      font-size: 15px;
+    }
+   
+  }
+  @media screen and (max-width: 480px) {
+    .top-navbar p {
+      font-size: 10px;
+      margin-left: 0;
+    }
+    
+  }
+  /* top-navbar */
+  
+  /* navbar */
+  
+  #navbar {
+    background-color: rgb(0, 38, 255);
+  }
+  #logo {
+    margin-left: 15px;
+    color: rgb(255, 234, 4);
+    font-weight: bold;
+    margin-bottom: 6px;
+  }
+  #logo span {
+    color: #ffffff;
+  }
+  #logo .span1 {
+    font-size: 30px;
+  }
+  
+  .navbar-nav {
+    margin-left: 20%;
+    
+  }
+  .nav-item {
+    margin-left: 10px;
+  }
+  .nav-item .nav-link {
+    color: white;
+    margin-left: 2px;
+    text-shadow: 0px 0px 1px white;
+    transition: 0.5s ease;
+  }
+  
+  .nav-item .nav-link :hover {
+    color: red;
+  }
+  .dropdown-menu li a {
+    color: white;
+    background: purple;
+    transition: 0.5s ease;
+  }
+  .dropdown-menu li a:hover {
+    background: purple;
+    color: #ffc800;
+  }
+  
+  #search input {
+    border-radius: 50px;
+    border: none;
+  }
+  #search button {
+    border-radius: 50px;
+    color: white;
+    border: 1px solid #ffc800;
+    background-color: #ffc800;
+  }
+  /* navbar */
+  
